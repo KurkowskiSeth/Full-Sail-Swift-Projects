@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0676DDC2058898D005C73F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0676DDB2058898D005C73F5 /* AppDelegate.swift */; };
+		C0676DDE2058898D005C73F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0676DDD2058898D005C73F5 /* ViewController.swift */; };
+		C0676DE12058898D005C73F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0676DDF2058898D005C73F5 /* Main.storyboard */; };
+		C0676DE32058898D005C73F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0676DE22058898D005C73F5 /* Assets.xcassets */; };
+		C0676DE62058898D005C73F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0676DE42058898D005C73F5 /* LaunchScreen.storyboard */; };
+		C0676DEB2058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C0676DEA2058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit App.app */; };
+		C0676DF12058898D005C73F5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0676DEF2058898D005C73F5 /* Interface.storyboard */; };
+		C0676DF32058898D005C73F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0676DF22058898D005C73F5 /* Assets.xcassets */; };
+		C0676DFA2058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C0676DF92058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C0676DFF2058898D005C73F5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0676DFE2058898D005C73F5 /* InterfaceController.swift */; };
+		C0676E012058898D005C73F5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0676E002058898D005C73F5 /* ExtensionDelegate.swift */; };
+		C0676E032058898D005C73F5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0676E022058898D005C73F5 /* NotificationController.swift */; };
+		C0676E052058898D005C73F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0676E042058898D005C73F5 /* Assets.xcassets */; };
+		C0676E1820589118005C73F5 /* ViewController_EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0676E1720589118005C73F5 /* ViewController_EXT.swift */; };
+		C0676E1A20589B25005C73F5 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0676E1920589B25005C73F5 /* Profile.swift */; };
+		C0676E1B20589B25005C73F5 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0676E1920589B25005C73F5 /* Profile.swift */; };
+		C0676E1D2058D753005C73F5 /* TableViewRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0676E1C2058D753005C73F5 /* TableViewRows.swift */; };
+		C0676E1E2058D753005C73F5 /* TableViewRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0676E1C2058D753005C73F5 /* TableViewRows.swift */; };
+		C0B2C34D20597B0300E22E4D /* DetailInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2C34C20597B0300E22E4D /* DetailInterface.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0676DEC2058898D005C73F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0676DD02058898D005C73F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0676DE92058898D005C73F5;
+			remoteInfo = "KurkowskiSeth_CE02 WatchKit App";
+		};
+		C0676DFB2058898D005C73F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0676DD02058898D005C73F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0676DF82058898D005C73F5;
+			remoteInfo = "KurkowskiSeth_CE02 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0676E0D2058898D005C73F5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C0676DFA2058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0676E112058898D005C73F5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C0676DEB2058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C0676DD82058898D005C73F5 /* KurkowskiSeth_CE02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KurkowskiSeth_CE02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0676DDB2058898D005C73F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0676DDD2058898D005C73F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0676DE02058898D005C73F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0676DE22058898D005C73F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0676DE52058898D005C73F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0676DE72058898D005C73F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0676DEA2058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KurkowskiSeth_CE02 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0676DF02058898D005C73F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C0676DF22058898D005C73F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0676DF42058898D005C73F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0676DF92058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KurkowskiSeth_CE02 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0676DFE2058898D005C73F5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C0676E002058898D005C73F5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C0676E022058898D005C73F5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C0676E042058898D005C73F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0676E062058898D005C73F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0676E072058898D005C73F5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C0676E1720589118005C73F5 /* ViewController_EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_EXT.swift; sourceTree = "<group>"; };
+		C0676E1920589B25005C73F5 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		C0676E1C2058D753005C73F5 /* TableViewRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewRows.swift; sourceTree = "<group>"; };
+		C0B2C34C20597B0300E22E4D /* DetailInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInterface.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0676DD52058898D005C73F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0676DF62058898D005C73F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0676DCF2058898D005C73F5 = {
+			isa = PBXGroup;
+			children = (
+				C0676DDA2058898D005C73F5 /* KurkowskiSeth_CE02 */,
+				C0676DEE2058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit App */,
+				C0676DFD2058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit Extension */,
+				C0676DD92058898D005C73F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0676DD92058898D005C73F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0676DD82058898D005C73F5 /* KurkowskiSeth_CE02.app */,
+				C0676DEA2058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit App.app */,
+				C0676DF92058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0676DDA2058898D005C73F5 /* KurkowskiSeth_CE02 */ = {
+			isa = PBXGroup;
+			children = (
+				C0676DDB2058898D005C73F5 /* AppDelegate.swift */,
+				C0676DDD2058898D005C73F5 /* ViewController.swift */,
+				C0676DDF2058898D005C73F5 /* Main.storyboard */,
+				C0676DE22058898D005C73F5 /* Assets.xcassets */,
+				C0676DE42058898D005C73F5 /* LaunchScreen.storyboard */,
+				C0676DE72058898D005C73F5 /* Info.plist */,
+				C0676E1720589118005C73F5 /* ViewController_EXT.swift */,
+				C0676E1920589B25005C73F5 /* Profile.swift */,
+			);
+			path = KurkowskiSeth_CE02;
+			sourceTree = "<group>";
+		};
+		C0676DEE2058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C0676DEF2058898D005C73F5 /* Interface.storyboard */,
+				C0676DF22058898D005C73F5 /* Assets.xcassets */,
+				C0676DF42058898D005C73F5 /* Info.plist */,
+			);
+			path = "KurkowskiSeth_CE02 WatchKit App";
+			sourceTree = "<group>";
+		};
+		C0676DFD2058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C0676DFE2058898D005C73F5 /* InterfaceController.swift */,
+				C0B2C34C20597B0300E22E4D /* DetailInterface.swift */,
+				C0676E002058898D005C73F5 /* ExtensionDelegate.swift */,
+				C0676E022058898D005C73F5 /* NotificationController.swift */,
+				C0676E042058898D005C73F5 /* Assets.xcassets */,
+				C0676E062058898D005C73F5 /* Info.plist */,
+				C0676E072058898D005C73F5 /* PushNotificationPayload.apns */,
+				C0676E1C2058D753005C73F5 /* TableViewRows.swift */,
+			);
+			path = "KurkowskiSeth_CE02 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0676DD72058898D005C73F5 /* KurkowskiSeth_CE02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0676E122058898D005C73F5 /* Build configuration list for PBXNativeTarget "KurkowskiSeth_CE02" */;
+			buildPhases = (
+				C0676DD42058898D005C73F5 /* Sources */,
+				C0676DD52058898D005C73F5 /* Frameworks */,
+				C0676DD62058898D005C73F5 /* Resources */,
+				C0676E112058898D005C73F5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0676DED2058898D005C73F5 /* PBXTargetDependency */,
+			);
+			name = KurkowskiSeth_CE02;
+			productName = KurkowskiSeth_CE02;
+			productReference = C0676DD82058898D005C73F5 /* KurkowskiSeth_CE02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0676DE92058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0676E0E2058898D005C73F5 /* Build configuration list for PBXNativeTarget "KurkowskiSeth_CE02 WatchKit App" */;
+			buildPhases = (
+				C0676DE82058898D005C73F5 /* Resources */,
+				C0676E0D2058898D005C73F5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0676DFC2058898D005C73F5 /* PBXTargetDependency */,
+			);
+			name = "KurkowskiSeth_CE02 WatchKit App";
+			productName = "KurkowskiSeth_CE02 WatchKit App";
+			productReference = C0676DEA2058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C0676DF82058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0676E0A2058898D005C73F5 /* Build configuration list for PBXNativeTarget "KurkowskiSeth_CE02 WatchKit Extension" */;
+			buildPhases = (
+				C0676DF52058898D005C73F5 /* Sources */,
+				C0676DF62058898D005C73F5 /* Frameworks */,
+				C0676DF72058898D005C73F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KurkowskiSeth_CE02 WatchKit Extension";
+			productName = "KurkowskiSeth_CE02 WatchKit Extension";
+			productReference = C0676DF92058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0676DD02058898D005C73F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Seth Kurkowski";
+				TargetAttributes = {
+					C0676DD72058898D005C73F5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C0676DE92058898D005C73F5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C0676DF82058898D005C73F5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C0676DD32058898D005C73F5 /* Build configuration list for PBXProject "KurkowskiSeth_CE02" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0676DCF2058898D005C73F5;
+			productRefGroup = C0676DD92058898D005C73F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0676DD72058898D005C73F5 /* KurkowskiSeth_CE02 */,
+				C0676DE92058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit App */,
+				C0676DF82058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0676DD62058898D005C73F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0676DE62058898D005C73F5 /* LaunchScreen.storyboard in Resources */,
+				C0676DE32058898D005C73F5 /* Assets.xcassets in Resources */,
+				C0676DE12058898D005C73F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0676DE82058898D005C73F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0676DF32058898D005C73F5 /* Assets.xcassets in Resources */,
+				C0676DF12058898D005C73F5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0676DF72058898D005C73F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0676E052058898D005C73F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0676DD42058898D005C73F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0676DDE2058898D005C73F5 /* ViewController.swift in Sources */,
+				C0676E1A20589B25005C73F5 /* Profile.swift in Sources */,
+				C0676E1D2058D753005C73F5 /* TableViewRows.swift in Sources */,
+				C0676E1820589118005C73F5 /* ViewController_EXT.swift in Sources */,
+				C0676DDC2058898D005C73F5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0676DF52058898D005C73F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0676E032058898D005C73F5 /* NotificationController.swift in Sources */,
+				C0676E1B20589B25005C73F5 /* Profile.swift in Sources */,
+				C0B2C34D20597B0300E22E4D /* DetailInterface.swift in Sources */,
+				C0676E1E2058D753005C73F5 /* TableViewRows.swift in Sources */,
+				C0676E012058898D005C73F5 /* ExtensionDelegate.swift in Sources */,
+				C0676DFF2058898D005C73F5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0676DED2058898D005C73F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0676DE92058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit App */;
+			targetProxy = C0676DEC2058898D005C73F5 /* PBXContainerItemProxy */;
+		};
+		C0676DFC2058898D005C73F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0676DF82058898D005C73F5 /* KurkowskiSeth_CE02 WatchKit Extension */;
+			targetProxy = C0676DFB2058898D005C73F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0676DDF2058898D005C73F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0676DE02058898D005C73F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0676DE42058898D005C73F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0676DE52058898D005C73F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C0676DEF2058898D005C73F5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0676DF02058898D005C73F5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0676E082058898D005C73F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0676E092058898D005C73F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0676E0B2058898D005C73F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL2U9TNTMV;
+				INFOPLIST_FILE = "KurkowskiSeth_CE02 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KurkowskiSeth.KurkowskiSeth-CE02.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		C0676E0C2058898D005C73F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL2U9TNTMV;
+				INFOPLIST_FILE = "KurkowskiSeth_CE02 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KurkowskiSeth.KurkowskiSeth-CE02.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		C0676E0F2058898D005C73F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL2U9TNTMV;
+				IBSC_MODULE = KurkowskiSeth_CE02_WatchKit_Extension;
+				INFOPLIST_FILE = "KurkowskiSeth_CE02 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KurkowskiSeth.KurkowskiSeth-CE02.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		C0676E102058898D005C73F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL2U9TNTMV;
+				IBSC_MODULE = KurkowskiSeth_CE02_WatchKit_Extension;
+				INFOPLIST_FILE = "KurkowskiSeth_CE02 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KurkowskiSeth.KurkowskiSeth-CE02.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		C0676E132058898D005C73F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL2U9TNTMV;
+				INFOPLIST_FILE = KurkowskiSeth_CE02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KurkowskiSeth.KurkowskiSeth-CE02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0676E142058898D005C73F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL2U9TNTMV;
+				INFOPLIST_FILE = KurkowskiSeth_CE02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KurkowskiSeth.KurkowskiSeth-CE02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0676DD32058898D005C73F5 /* Build configuration list for PBXProject "KurkowskiSeth_CE02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0676E082058898D005C73F5 /* Debug */,
+				C0676E092058898D005C73F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0676E0A2058898D005C73F5 /* Build configuration list for PBXNativeTarget "KurkowskiSeth_CE02 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0676E0B2058898D005C73F5 /* Debug */,
+				C0676E0C2058898D005C73F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0676E0E2058898D005C73F5 /* Build configuration list for PBXNativeTarget "KurkowskiSeth_CE02 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0676E0F2058898D005C73F5 /* Debug */,
+				C0676E102058898D005C73F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0676E122058898D005C73F5 /* Build configuration list for PBXNativeTarget "KurkowskiSeth_CE02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0676E132058898D005C73F5 /* Debug */,
+				C0676E142058898D005C73F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0676DD02058898D005C73F5 /* Project object */;
+}
