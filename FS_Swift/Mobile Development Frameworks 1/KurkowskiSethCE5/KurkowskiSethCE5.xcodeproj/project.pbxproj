@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0593A631F7179DE00A349D1 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0593A621F7179DE00A349D1 /* DetailVC.swift */; };
+		C0A21A101F70494800B50367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A21A0F1F70494800B50367 /* AppDelegate.swift */; };
+		C0A21A151F70494800B50367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A21A131F70494800B50367 /* Main.storyboard */; };
+		C0A21A171F70494800B50367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A21A161F70494800B50367 /* Assets.xcassets */; };
+		C0A21A1A1F70494800B50367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A21A181F70494800B50367 /* LaunchScreen.storyboard */; };
+		C0A21A251F70494800B50367 /* KurkowskiSethCE5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A21A241F70494800B50367 /* KurkowskiSethCE5Tests.swift */; };
+		C0A21A301F704AF300B50367 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A21A2F1F704AF300B50367 /* TableViewController.swift */; };
+		C0A21A321F704B2400B50367 /* CongressmanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A21A311F704B2400B50367 /* CongressmanCell.swift */; };
+		C0A21A361F704E1000B50367 /* CongressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A21A351F704E1000B50367 /* CongressData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0A21A211F70494800B50367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A21A041F70494700B50367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A21A0B1F70494700B50367;
+			remoteInfo = KurkowskiSethCE5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0593A621F7179DE00A349D1 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		C0A21A0C1F70494700B50367 /* KurkowskiSethCE5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KurkowskiSethCE5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A21A0F1F70494800B50367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0A21A141F70494800B50367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0A21A161F70494800B50367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0A21A191F70494800B50367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0A21A1B1F70494800B50367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A21A201F70494800B50367 /* KurkowskiSethCE5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KurkowskiSethCE5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A21A241F70494800B50367 /* KurkowskiSethCE5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurkowskiSethCE5Tests.swift; sourceTree = "<group>"; };
+		C0A21A261F70494800B50367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A21A2F1F704AF300B50367 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C0A21A311F704B2400B50367 /* CongressmanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongressmanCell.swift; sourceTree = "<group>"; };
+		C0A21A351F704E1000B50367 /* CongressData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongressData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0A21A091F70494700B50367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A21A1D1F70494800B50367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0A21A031F70494700B50367 = {
+			isa = PBXGroup;
+			children = (
+				C0A21A0E1F70494700B50367 /* KurkowskiSethCE5 */,
+				C0A21A231F70494800B50367 /* KurkowskiSethCE5Tests */,
+				C0A21A0D1F70494700B50367 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0A21A0D1F70494700B50367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0A21A0C1F70494700B50367 /* KurkowskiSethCE5.app */,
+				C0A21A201F70494800B50367 /* KurkowskiSethCE5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0A21A0E1F70494700B50367 /* KurkowskiSethCE5 */ = {
+			isa = PBXGroup;
+			children = (
+				C0A21A0F1F70494800B50367 /* AppDelegate.swift */,
+				C0A21A131F70494800B50367 /* Main.storyboard */,
+				C0A21A161F70494800B50367 /* Assets.xcassets */,
+				C0A21A181F70494800B50367 /* LaunchScreen.storyboard */,
+				C0A21A1B1F70494800B50367 /* Info.plist */,
+				C0A21A2F1F704AF300B50367 /* TableViewController.swift */,
+				C0A21A311F704B2400B50367 /* CongressmanCell.swift */,
+				C0A21A351F704E1000B50367 /* CongressData.swift */,
+				C0593A621F7179DE00A349D1 /* DetailVC.swift */,
+			);
+			path = KurkowskiSethCE5;
+			sourceTree = "<group>";
+		};
+		C0A21A231F70494800B50367 /* KurkowskiSethCE5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C0A21A241F70494800B50367 /* KurkowskiSethCE5Tests.swift */,
+				C0A21A261F70494800B50367 /* Info.plist */,
+			);
+			path = KurkowskiSethCE5Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0A21A0B1F70494700B50367 /* KurkowskiSethCE5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A21A291F70494800B50367 /* Build configuration list for PBXNativeTarget "KurkowskiSethCE5" */;
+			buildPhases = (
+				C0A21A081F70494700B50367 /* Sources */,
+				C0A21A091F70494700B50367 /* Frameworks */,
+				C0A21A0A1F70494700B50367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KurkowskiSethCE5;
+			productName = KurkowskiSethCE5;
+			productReference = C0A21A0C1F70494700B50367 /* KurkowskiSethCE5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0A21A1F1F70494800B50367 /* KurkowskiSethCE5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A21A2C1F70494800B50367 /* Build configuration list for PBXNativeTarget "KurkowskiSethCE5Tests" */;
+			buildPhases = (
+				C0A21A1C1F70494800B50367 /* Sources */,
+				C0A21A1D1F70494800B50367 /* Frameworks */,
+				C0A21A1E1F70494800B50367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0A21A221F70494800B50367 /* PBXTargetDependency */,
+			);
+			name = KurkowskiSethCE5Tests;
+			productName = KurkowskiSethCE5Tests;
+			productReference = C0A21A201F70494800B50367 /* KurkowskiSethCE5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A21A041F70494700B50367 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Seth Kurkowski";
+				TargetAttributes = {
+					C0A21A0B1F70494700B50367 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C0A21A1F1F70494800B50367 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0A21A0B1F70494700B50367;
+					};
+				};
+			};
+			buildConfigurationList = C0A21A071F70494700B50367 /* Build configuration list for PBXProject "KurkowskiSethCE5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0A21A031F70494700B50367;
+			productRefGroup = C0A21A0D1F70494700B50367 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0A21A0B1F70494700B50367 /* KurkowskiSethCE5 */,
+				C0A21A1F1F70494800B50367 /* KurkowskiSethCE5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0A21A0A1F70494700B50367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A21A1A1F70494800B50367 /* LaunchScreen.storyboard in Resources */,
+				C0A21A171F70494800B50367 /* Assets.xcassets in Resources */,
+				C0A21A151F70494800B50367 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A21A1E1F70494800B50367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0A21A081F70494700B50367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A21A361F704E1000B50367 /* CongressData.swift in Sources */,
+				C0A21A101F70494800B50367 /* AppDelegate.swift in Sources */,
+				C0A21A301F704AF300B50367 /* TableViewController.swift in Sources */,
+				C0A21A321F704B2400B50367 /* CongressmanCell.swift in Sources */,
+				C0593A631F7179DE00A349D1 /* DetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A21A1C1F70494800B50367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A21A251F70494800B50367 /* KurkowskiSethCE5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0A21A221F70494800B50367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0A21A0B1F70494700B50367 /* KurkowskiSethCE5 */;
+			targetProxy = C0A21A211F70494800B50367 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0A21A131F70494800B50367 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A21A141F70494800B50367 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0A21A181F70494800B50367 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A21A191F70494800B50367 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0A21A271F70494800B50367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0A21A281F70494800B50367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0A21A2A1F70494800B50367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KurkowskiSethCE5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KurkowskiSethCE5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0A21A2B1F70494800B50367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KurkowskiSethCE5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KurkowskiSethCE5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C0A21A2D1F70494800B50367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KurkowskiSethCE5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KurkowskiSethCE5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KurkowskiSethCE5.app/KurkowskiSethCE5";
+			};
+			name = Debug;
+		};
+		C0A21A2E1F70494800B50367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KurkowskiSethCE5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KurkowskiSethCE5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KurkowskiSethCE5.app/KurkowskiSethCE5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0A21A071F70494700B50367 /* Build configuration list for PBXProject "KurkowskiSethCE5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A21A271F70494800B50367 /* Debug */,
+				C0A21A281F70494800B50367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A21A291F70494800B50367 /* Build configuration list for PBXNativeTarget "KurkowskiSethCE5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A21A2A1F70494800B50367 /* Debug */,
+				C0A21A2B1F70494800B50367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A21A2C1F70494800B50367 /* Build configuration list for PBXNativeTarget "KurkowskiSethCE5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A21A2D1F70494800B50367 /* Debug */,
+				C0A21A2E1F70494800B50367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0A21A041F70494700B50367 /* Project object */;
+}
